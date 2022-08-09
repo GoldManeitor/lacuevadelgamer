@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/0 - Imagenes/logo.png" type="image/x-icon">
+    <link href="/Css/Login-Signup.css" rel="stylesheet" type="text/css">
+    <title>Login | La Cueva del Gamer</title>
+</head>
+<body>
+    <section id="flex-Container">
+        <div class="flex-loginContainer">
+            <h3 class="loginTitle">INICIAR SESION</h3>
+            <form id="flex-loginForm">
+                <input type="text" id="userName" placeholder="usuario" required>
+                <input type="password" id="userPassword" placeholder="contraseña" required>
+                <input type="submit" id="loginSubmit" value="Ingresar a la cueva">
+            </form>
+            <h4 class="loginErrorMessage"></h4>
+            <a href="/Html/signUp.html" class="signUp"> ¿Aún no eres un cavernícola? </a>
+        </div>
+    </section>
+
+    <script src="/JavaScript/Login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

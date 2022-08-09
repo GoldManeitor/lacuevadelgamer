@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'Start_Game';
+    src: url('/1 - Fuentes/GameBoost/GameBost Market.otf');
+}
+
+
+body {
+    background: #0E001F;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#flex-container {
+    display: flex;
+    width: 90%;
+    height: 70px;
+    min-width: 781px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 7px;
+ 
+    
+}
+
+
+#circleLogo1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+
+    justify-content: flex-end;
+    align-items: center;
+
+    transition: all 0.3s;
+    background-color: #26093E;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+
+}
+#circleLogo2 {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    transition: all 0.3s;
+    background-color: #4C0765;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+#circleLogo3 {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    transition: all 0.3s;
+    background-color: #7B2172;
+    border: none;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    
+}
+
+#circleLogo3 a {
+    text-align: center;
+    margin-top: 37%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #26093E;
+    font-family: 'Start_Game','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+#circleLogo1:hover {
+    width: 120px;
+    height: 120px;
+
+    background-color: rgb(1, 112, 112);
+}
+#circleLogo2:hover {
+    width: 100px;
+    height: 100px;
+
+    background-color:   rgb(38, 194, 194);
+}
+#circleLogo3:hover {
+    width: 85px;
+    height: 85px;
+
+    background-color: rgb(85, 253, 253);
+    border: rgb(85, 253, 253);
+    
+}
+#circleLogo3 a:hover {
+    color:rgb(1, 112, 112);
+}
+
+
+
+nav {
+    display: flex;
+    width: 200px;
+    height: 100px;
+
+    margin-left: 25px;
+
+    
+
+} 
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 7px;
+
+    transition: all 0.3s;
+    color:#f5b1ee;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+
+} 
+
+/* .darkviolet {
+    background-color: #7B2172;
+    border: #7B2172;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+} */
+
+.darkviolet {
+    background-color: #4C0765;
+    border: #4C0765;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* .lightviolet {
+    background-color: #26093E;
+    border: #26093E;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);    
+} */
+
+/* .darkviolet:hover {
+    background-color: rgb(85, 253, 253);
+    border: rgb(85, 253, 253);
+    width: 50px;
+    height: 50px;
+} */
+
+.darkviolet:hover {
+    background-color:   rgb(38, 194, 194);
+    border: rgb(38, 194, 194);;
+    width: 50px;
+    height: 50px;
+}
+
+/* .lightviolet:hover {
+    background-color: rgb(1, 112, 112);
+    border: rgb(1, 112, 112);
+    width: 50px;
+    height: 50px;
+} */
+
+.flex-profileContainer {
+    display: flex;
+    height: 70px;
+    width: 10%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    font-size: 30px;
+    font-family: 'Start_Game', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+#loguedUser {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+
+    color:rgb(38, 194, 194);
+
+
+}
+
+#endSession {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color:#0E001F;
+    
+}
+#endSession:hover {
+    color:rgb(1, 112, 112);
+}
+
+
+/* fin HEADER */
+
+/* MAIN MENU */
+article {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+h1 {
+    font-family: 'Start_Game', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-size: 70px;
+    color:rgb(38, 194, 194);
+    margin-top: 0px;
+}
+h3 {
+    font-family: 'Start_Game', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-size: 30px;
+    color:#7B2172;
+}
+
+#flex-toggleGame {
+    display: flex;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: all 2s;
+
+
+}
+
+.principalButtonsContainers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+    width: 700px;
+    height: 500px;
+    background-color:#26093E;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200px;
+    transition: all .5s;
+}
+
+.flex-leftSelector {
+
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25); 
+}
+
+.flex-rightSelector {
+
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.flex-leftSelector a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all .7s;
+}
+.flex-rightSelector a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    transition: all .7s;
+}
+.flex-leftSelector a div {
+    background-color:#0E001F;
+    width: 75px;
+    height: 75px;   
+    margin: 8px;
+   
+}
+#up {
+    display: flex;
+    flex-direction: row;
+}
+#down {
+    display: flex;
+    flex-direction: row;
+}
+.up {
+    background-color: #0E001F;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+.down {
+    background-color: #0E001F;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+.principalButtonsContainers:hover {
+   width: 720px;
+   height: 540px;
+   background-color:rgb(38, 194, 194);
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    opacity: 60%;
+}
+
+/* fin MAIN MENU */
+
+

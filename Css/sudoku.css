@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Start_Game';
+    src: url('/1 - Fuentes/GameBoost/GameBost Market.otf');
+}
+
+body {
+    background: #0E001F;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#flex-container {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    min-width: 781px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 7px;
+ 
+    
+}
+
+
+#circleLogo1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+
+    justify-content: flex-end;
+    align-items: center;
+
+    transition: all 0.3s;
+    background-color: #26093E;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+
+}
+#circleLogo2 {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    transition: all 0.3s;
+    background-color: #4C0765;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+#circleLogo3 {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+
+    transition: all 0.3s;
+    background-color: #7B2172;
+    border: #7B2172;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Start_Game',  'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+    color: #26093E;
+    text-decoration: none;
+}
+
+#circleLogo1:hover {
+    width: 120px;
+    height: 120px;
+
+    background-color: rgb(1, 112, 112);
+}
+#circleLogo2:hover {
+    width: 100px;
+    height: 100px;
+
+    background-color:   rgb(38, 194, 194);
+}
+#circleLogo3:hover {
+    width: 85px;
+    height: 85px;
+
+    background-color: rgb(85, 253, 253);
+    border: rgb(85, 253, 253);
+    color:rgb(1, 112, 112);
+}
+
+.gameTitle {
+    font-family: 'Start_Game', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin-left: 30px;
+    font-size: 50px;
+    color:#7B2172;
+    text-shadow: #0E001F;
+}
+
+/* fin HEADER */
+
+/* SUDOKU */
+article {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+#sudokuContainer {
+    display: flex;
+    width: 60%;
+    height: 90%;
+    margin-left: 12%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.Containers {
+    display: flex;
+    margin: 5px;
+    width: 90%;
+    height: 30%;
+
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+.blocks_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    height: 100%;
+    width: 30%;
+    margin: 1%;
+
+}
+
+.block {
+
+    width: 30%;
+    height: 30%;
+    margin-inline: 1%;
+
+    background-color:rgb(1, 112, 112);
+    border-radius: 3px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+
+.painted {
+    color: #26093E;
+}
+
+.editable {
+    color:rgb(85, 253, 253);
+}
+.editable:hover{
+    cursor: pointer;
+}
+
+/* buttons*/
+
+
+.playAgain {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(3, 70, 70);
+    margin-left: 160px;
+    transition: all .3s;
+}
+
+#check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    background-color:rgb(38, 194, 194);
+    transition: all .3s;
+}
+
+#tries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 170px;
+    margin-bottom: 250px;
+
+    background-color:#4C0765;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #0E001F;
+}
+
+.playAgain:hover {
+    width: 120px;
+    height: 120px;
+    background-color:rgb(38, 194, 194);
+}
+
+#check:hover {
+    width: 110px;
+    height: 110px;
+    background-color:rgb(85, 253, 253);
+}
+
+.playAgain a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.playAgain a img {
+    width: 60px;
+    height: 60px;
+    opacity: 60%;
+}
+
+#check img {
+    width: 45px;
+    height: 45px;
+    opacity: 60%;
+}

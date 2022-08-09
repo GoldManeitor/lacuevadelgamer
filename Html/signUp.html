@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/0 - Imagenes/logo.png" type="image/x-icon">
+    <link href="/Css/Login-Signup.css" rel="stylesheet" type="text/css">
+    <title>SignUp | La Cueva del Gamer</title>
+</head>
+<body>
+    <div id="flex-signUpContainer">
+        <div id="flex-formContainer">
+            <h2>¿QUIERES SER UN CAVERNICOLA?</h2>
+            <h4>CREA TU USUARIO</h4>
+            <form id="signUp">
+                <input type="text" id="userName" class="signUpInput" placeholder="Nombre de usuario" required>
+                <input type="password" id="userPassword" class="signUpInput" placeholder="Contraseña" required>
+                <input type="password" id="userConfirmPassword" class="signUpInput" placeholder="Confirmar contraseña" required>
+                <input type="email" id="userEmail" class="signUpInput" placeholder="Email" required>
+                <input type="submit" id="signUpSubmit" value="Crear Usuario">
+            </form>
+            <h4 class="errorMessage"></h4>
+            <a href="/Html/LogIn.html">¿Ya tienes cuenta? Logueate aquí</a>
+        </div>
+       
+    </div>
+    
+    <script src="/JavaScript/signUp.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

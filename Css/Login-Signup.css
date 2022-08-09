@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Start_Game';
+    src: url('/1 - Fuentes/GameBoost/GameBost Market.otf');
+}
+
+body {
+    background-color:  #4C0765 ;
+    transition: all 2s;
+}
+
+body:hover {
+    background-color:  #3f0654;
+}
+
+
+/* LogIn */
+
+#flex-Container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.flex-loginContainer {
+    display: flex;
+    width: 500px;
+    height: 350px;
+
+    margin-top: 150px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: #26093E ;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.flex-loginContainer h3 {
+    margin-top: 100px;
+    color:  rgb(85, 253, 253);
+
+    font-size: 34px;
+    font-family: 'Start_Game',  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-loginContainer form {
+    display: flex;
+    width: 60%;
+    height: 40%;
+
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+
+#userName {
+    margin: 2px;
+    
+    background-color: #491275;
+    border: none;
+    color: #FFFF;
+} 
+
+#userPassword {
+    margin: 2px;
+    background-color: #491275;
+    border: none;
+    color: #FFFF;
+}
+
+#loginSubmit {
+    margin: 2px;
+    margin-top: 22px;
+
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(85, 253, 253);
+}
+
+#loginSubmit:hover {
+    background-color:rgb(1, 112, 112);
+}
+
+.flex-loginContainer a {
+    color:rgb(1, 112, 112);
+    margin-bottom: 15px;
+}
+.flex-loginContainer h4 {
+    color:rgb(85, 253, 253);
+}
+
+
+/* Sign Up */
+
+#flex-signUpContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#flex-formContainer {
+    display: flex;
+    width: 500px;
+    height: 520px;
+
+    margin-top: 65px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: #26093E ;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+#flex-formContainer h2 {
+    margin-top: 25px;
+    color:  rgb(85, 253, 253);
+
+    font-size: 25px;
+    font-family: 'Start_Game',  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#flex-formContainer h4 {
+    margin-top: -10px;
+    color:  rgb(1, 112, 112);
+    
+
+    font-size: 20px;
+    font-family: 'Start_Game',  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#flex-formContainer form {
+    display: flex;
+    width: 60%;
+    height: 55%;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#signUp input {
+    height: 27px;
+    margin: 4px;
+}
+
+#userConfirmPassword {
+    
+    background-color: #491275;
+    border: none;
+    color: #FFFF;
+}
+#userEmail {
+    
+    background-color: #491275;
+    border: none;
+    color: #FFFF;
+}
+
+#signUpSubmit {
+    
+    margin-top: 34px;
+
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(85, 253, 253);
+}
+
+#signUpSubmit:hover {
+    background-color:rgb(1, 112, 112);
+}
+
+#flex-formContainer a {
+    color:rgb(1, 112, 112);
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/0 - Imagenes/logo.png" type="image/x-icon">
+        <link href="/Css/sudoku.css" rel="stylesheet" type="text/css">
+        <title>Sudoku Game | La Cueva del Gamer</title>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+    <body>
+        <header>
+            <div id="flex-container">
+                <div id="circleLogo1"><div id="circleLogo2"> <a href="../index.html" id="circleLogo3" class="mainMenuButton">M</a></div></div>
+                <h2 class="gameTitle">SUDOKU</h2>
+            </div>
+        </header>
+        
+        <article>
+            <section id="sudokuContainer">
+                <div class="Containers">
+                    <div class="blocks_Container">
+                        <div class="a 1 block TOPleft"></div>
+                        <div class="a 2 block TOPleft"></div>
+                        <div class="a 3 block TOPleft"></div>
+                        <div class="b 1 block TOPleft"></div>
+                        <div class="b 2 block TOPleft"></div>
+                        <div class="b 3 block TOPleft"></div>
+                        <div class="c 1 block TOPleft"></div>
+                        <div class="c 2 block TOPleft"></div>
+                        <div class="c 3 block TOPleft"></div>
+                    </div>
+
+                    <div class="blocks_Container">
+                        <div class="a 4 block TOPmid"></div>
+                        <div class="a 5 block TOPmid"></div>
+                        <div class="a 6 block TOPmid"></div>
+                        <div class="b 4 block TOPmid"></div>
+                        <div class="b 5 block TOPmid"></div>
+                        <div class="b 6 block TOPmid"></div>
+                        <div class="c 4 block TOPmid"></div>
+                        <div class="c 5 block TOPmid"></div>
+                        <div class="c 6 block TOPmid"></div>
+                    </div>
+
+                    <div class="blocks_Container">
+                        <div class="a 7 block TOPright"></div>
+                        <div class="a 8 block TOPright"></div>
+                        <div class="a 9 block TOPright"></div>
+                        <div class="b 7 block TOPright"></div>
+                        <div class="b 8 block TOPright"></div>
+                        <div class="b 9 block TOPright"></div>
+                        <div class="c 7 block TOPright"></div>
+                        <div class="c 8 block TOPright"></div>
+                        <div class="c 9 block TOPright"></div>
+                    </div>
+                </div>
+                <div class="Containers">
+                    <div class="blocks_Container">
+                        <div class="d 1 block MIDleft"></div>
+                        <div class="d 2 block MIDleft"></div>
+                        <div class="d 3 block MIDleft"></div>
+                        <div class="e 1 block MIDleft"></div>
+                        <div class="e 2 block MIDleft"></div>
+                        <div class="e 3 block MIDleft"></div>
+                        <div class="f 1 block MIDleft"></div>
+                        <div class="f 2 block MIDleft"></div>
+                        <div class="f 3 block MIDleft"></div>
+                    </div>
+
+                    <div class="blocks_Container">
+                        <div class="d 4 block MIDmid"></div>
+                        <div class="d 5 block MIDmid"></div>
+                        <div class="d 6 block MIDmid"></div>
+                        <div class="e 4 block MIDmid"></div>
+                        <div class="e 5 block MIDmid"></div>
+                        <div class="e 6 block MIDmid"></div>
+                        <div class="f 4 block MIDmid"></div>
+                        <div class="f 5 block MIDmid"></div>
+                        <div class="f 6 block MIDmid"></div>
+                    </div>
+
+                    <div class="blocks_Container">
+                        <div class="d 7 block MIDright"></div>
+                        <div class="d 8 block MIDright"></div>
+                        <div class="d 9 block MIDright"></div>
+                        <div class="e 7 block MIDright"></div>
+                        <div class="e 8 block MIDright"></div>
+                        <div class="e 9 block MIDright"></div>
+                        <div class="f 7 block MIDright"></div>
+                        <div class="f 8 block MIDright"></div>
+                        <div class="f 9 block MIDright"></div>
+                    </div>
+                </div>
+                <div class="Containers">
+                    <div class="blocks_Container">
+                        <div class="g 1 block BOTOMleft"></div>
+                        <div class="g 2 block BOTOMleft"></div>
+                        <div class="g 3 block BOTOMleft"></div>
+                        <div class="h 1 block BOTOMleft"></div>
+                        <div class="h 2 block BOTOMleft"></div>
+                        <div class="h 3 block BOTOMleft"></div>
+                        <div class="i 1 block BOTOMleft"></div>
+                        <div class="i 2 block BOTOMleft"></div>
+                        <div class="i 3 block BOTOMleft"></div>
+                    </div>
+                
+                    <div class="blocks_Container">
+                        <div class="g 4 block BOTOMmid"></div>
+                        <div class="g 5 block BOTOMmid"></div>
+                        <div class="g 6 block BOTOMmid"></div>
+                        <div class="h 4 block BOTOMmid"></div>
+                        <div class="h 5 block BOTOMmid"></div>
+                        <div class="h 6 block BOTOMmid"></div>
+                        <div class="i 4 block BOTOMmid"></div>
+                        <div class="i 5 block BOTOMmid"></div>
+                        <div class="i 6 block BOTOMmid"></div>
+                    </div>
+
+                    <div class="blocks_Container">
+                        <div class="g 7 block BOTOMright"></div>
+                        <div class="g 8 block BOTOMright"></div>
+                        <div class="g 9 block BOTOMright"></div>
+                        <div class="h 7 block BOTOMright"></div>
+                        <div class="h 8 block BOTOMright"></div>
+                        <div class="h 9 block BOTOMright"></div>
+                        <div class="i 7 block BOTOMright"></div>
+                        <div class="i 8 block BOTOMright"></div>
+                        <div class="i 9 block BOTOMright"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="buttons">
+                <div id="tries"></div>
+                <button id="check"><img src="/0 - Imagenes/cheque.png" alt=""></button>
+                <div class="playAgain"><a href="/Html/sudoku.html"><img src="/0 - Imagenes/restart.png" alt=""></a></div>
+            </section>
+        </article>
+        <script src="/JavaScript/sudoku.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
